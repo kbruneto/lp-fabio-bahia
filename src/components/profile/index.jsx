@@ -12,7 +12,7 @@ export function Profile() {
   return (
     <ContainerMain>
       <Banner>
-        <FabioImg src="../src/assets/Fabio.svg" alt="Fabio Image" />
+        <FabioImg src="/src/assets/Fabio.svg" alt="Fabio Image" />
       </Banner>
 
       <ContentProfile>
