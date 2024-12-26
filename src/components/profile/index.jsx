@@ -6,6 +6,7 @@ import {
   ContainerMain,
   ContentProfile,
   Description,
+  FabioImg,
 } from "./styles";
 
 export function Profile() {
@@ -13,7 +14,9 @@ export function Profile() {
     <ContainerMain>
       <Banner>
         {/* <FabioImg src="/src/assets/Fabio.img" alt="Fabio Image" /> */}
-        <FabioImg1></FabioImg1>
+        <FabioImg>
+          <FabioImg1></FabioImg1>
+        </FabioImg>
       </Banner>
 
       <ContentProfile>

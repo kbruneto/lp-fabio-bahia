@@ -28,14 +28,16 @@ export const Banner = styled.div`
   justify-content: center;
 `;
 
-export const FabioImg = styled.img`
-  border: 4px solid #000000;
-  border-radius: 100%;
-  display: flex;
-  position: absolute;
-  max-height: 15.625rem;
-  max-width: 15.625rem;
-  margin-top: 1.5625rem;
+export const FabioImg = styled.div`
+  svg {
+    border: 4px solid #000000;
+    border-radius: 100%;
+    display: flex;
+    // position: absolute;
+    max-height: 15.625rem;
+    max-width: 15.625rem;
+    margin-top: 1.5625rem;
+  }
 `;
 
 export const ContentProfile = styled.div`
