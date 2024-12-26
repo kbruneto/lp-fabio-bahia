@@ -1,7 +1,7 @@
 import { Accountability } from "../../components/accountability";
 import { Campaign } from "../../components/campaign";
 import { PixCode } from "../../components/pixcode";
-import { Profile } from "../../components/Profile";
+import { Profile } from "../../components/profile";
 import { UndTheCase } from "../../components/undthecase";
 
 import { ContainerMain, LineFour, LineOne, LineThree, LineTwo } from "./styles";
