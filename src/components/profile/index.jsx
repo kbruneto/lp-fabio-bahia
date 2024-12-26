@@ -1,3 +1,4 @@
+import { FabioImg1 } from "../../assets/Fabio";
 import {
   Banner,
   ContactUs,
@@ -5,14 +6,14 @@ import {
   ContainerMain,
   ContentProfile,
   Description,
-  FabioImg,
 } from "./styles";
 
 export function Profile() {
   return (
     <ContainerMain>
       <Banner>
-        <FabioImg src="/src/assets/Fabio.svg" alt="Fabio Image" />
+        {/* <FabioImg src="/src/assets/Fabio.img" alt="Fabio Image" /> */}
+        <FabioImg1></FabioImg1>
       </Banner>
 
       <ContentProfile>
