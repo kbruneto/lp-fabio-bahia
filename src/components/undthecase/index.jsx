@@ -31,7 +31,7 @@ export function UndTheCase() {
           </p>
         </TextContainer>
         <ImageContainer>
-          <FabioFamilyImg></FabioFamilyImg>fe
+          <FabioFamilyImg></FabioFamilyImg>
         </ImageContainer>
       </ContentContainer>
       <a
