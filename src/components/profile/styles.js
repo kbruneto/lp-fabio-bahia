@@ -7,9 +7,9 @@ export const ContainerMain = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 0px 0px 50px 50px;
+  border-radius: 50px 50px 50px 50px;
 
-  background-image: url(/src/assets/backgroundprofileimg.png);
+  background-color: #fdefbb;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
