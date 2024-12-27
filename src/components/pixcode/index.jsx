@@ -1,4 +1,5 @@
 import { CopyIconImg } from "../../assets/CopyIcon";
+import { PixKeyCodeImg } from "../../assets/PixKeyCode";
 import {
   ContainerMainPix,
   ContainerTextCode,
@@ -19,7 +20,9 @@ export function PixCode() {
     <>
       <ContainerMainPix>
         <TitleDonate>Faça uma doação direta via Pix:</TitleDonate>
-        <ImageCode src="/src/assets/PixKeyCode.svg" alt="QR Code para Pix" />
+        <ImageCode src="/src/assets/PixKeyCode.svg" alt="QR Code para Pix">
+          <PixKeyCodeImg></PixKeyCodeImg>
+        </ImageCode>
         <ContainerTextCode>
           <CopyIconImg
             src="/src/assets/CopyIcon.svg"

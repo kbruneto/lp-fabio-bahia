@@ -28,15 +28,17 @@ export const TitleDonate = styled.p`
   }
 `;
 
-export const ImageCode = styled.img`
-  padding: 60px;
+export const ImageCode = styled.div`
+  svg {
+    padding: 60px;
 
-  @media (max-width: ${theme.breakpoints.md}) {
-    height: 400px;
-  }
+    @media (max-width: ${theme.breakpoints.md}) {
+      height: 400px;
+    }
 
-  @media (max-width: ${theme.breakpoints.mini}) {
-    height: 350px;
+    @media (max-width: ${theme.breakpoints.mini}) {
+      height: 350px;
+    }
   }
 `;
 
