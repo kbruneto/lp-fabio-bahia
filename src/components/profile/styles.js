@@ -89,7 +89,7 @@ export const ContactUs = styled.div`
     color: inherit;
   }
 
-  img {
+  svg {
     height: 1.875rem;
   }
 
@@ -97,7 +97,7 @@ export const ContactUs = styled.div`
     a {
       font-size: 16px;
     }
-    img {
+    svg {
       height: 24px;
     }
   }

@@ -1,4 +1,5 @@
 import { FabioImg1 } from "../../assets/Fabio";
+import { MessageIconImg } from "../../assets/MessageIcon";
 import {
   Banner,
   ContactUs,
@@ -28,7 +29,7 @@ export function Profile() {
 
         <ContactUsDesc>Entre em contato conosco:</ContactUsDesc>
         <ContactUs>
-          <img src="/src/assets/MessageIcon.svg" alt="Icon Message" />
+          <MessageIconImg alt="Icon Message" />
           <a
             href="https://wa.link/07ny0f"
             target="_blank"
