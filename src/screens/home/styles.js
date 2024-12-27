@@ -7,6 +7,10 @@ export const ContainerMain = styled.div`
   justify-content: space-between;
   padding: 5% 0 5% 0;
   gap: 5rem;
+
+  @media (max-width: ${theme.breakpoints.sm}) {
+    padding: 0 0 5% 0;
+  }
 `;
 
 export const LineOne = styled.div`
