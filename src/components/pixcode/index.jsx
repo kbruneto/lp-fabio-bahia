@@ -1,3 +1,4 @@
+import { CopyIconImg } from "../../assets/CopyIcon";
 import {
   ContainerMainPix,
   ContainerTextCode,
@@ -20,7 +21,7 @@ export function PixCode() {
         <TitleDonate>Faça uma doação direta via Pix:</TitleDonate>
         <ImageCode src="/src/assets/PixKeyCode.svg" alt="QR Code para Pix" />
         <ContainerTextCode>
-          <img
+          <CopyIconImg
             src="/src/assets/CopyIcon.svg"
             alt="Ícone de copiar"
             onClick={handleCopyEmail}

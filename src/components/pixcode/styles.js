@@ -52,7 +52,7 @@ export const ContainerTextCode = styled.div`
     transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
   }
 
-  img {
+  svg {
     transition: transform 0.3s ease-in-out, color 0.3s ease-in-out,
       opacity 0.3s ease-in-out;
   }
@@ -63,7 +63,7 @@ export const ContainerTextCode = styled.div`
       color: rgba(248, 168, 45, 0.8);
     }
 
-    img {
+    svg {
       transform: scale(1.05);
       opacity: 0.8;
     }
@@ -73,7 +73,7 @@ export const ContainerTextCode = styled.div`
     p {
       font-size: 26px;
     }
-    img {
+    svg {
       transform: scale(0.9);
     }
   }
@@ -82,11 +82,11 @@ export const ContainerTextCode = styled.div`
     p {
       font-size: 22px;
     }
-    img {
+    svg {
       transform: scale(0.8);
     }
     &:hover {
-      img {
+      svg {
         transform: scale(0.9);
       }
     }
@@ -95,7 +95,7 @@ export const ContainerTextCode = styled.div`
     p {
       font-size: 18px;
     }
-    img {
+    svg {
       transform: scale(0.7);
     }
   }
