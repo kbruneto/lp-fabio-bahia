@@ -9,7 +9,7 @@ export const ContainerMain = styled.div`
   align-items: center;
   border-radius: 0px 0px 50px 50px;
 
-  background-image: url(/src/assets/BackgroundProfileImg.png);
+  background-image: url(/src/assets/backgroundprofileimg.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
