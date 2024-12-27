@@ -39,7 +39,7 @@ export function UndTheCase() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Clique aqui para baixar o Laudo
+        Clique aqui para acessar o Laudo
       </a>
     </ContainerMainUnd>
   );
