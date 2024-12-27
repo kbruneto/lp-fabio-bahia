@@ -1,3 +1,4 @@
+import { FabioFamilyImg } from "../../assets/FabioFamily";
 import {
   ContainerMainUnd,
   ContentContainer,
@@ -30,7 +31,7 @@ export function UndTheCase() {
           </p>
         </TextContainer>
         <ImageContainer>
-          <img src="/src/assets/FabioFamily.svg"></img>
+          <FabioFamilyImg></FabioFamilyImg>fe
         </ImageContainer>
       </ContentContainer>
       <a

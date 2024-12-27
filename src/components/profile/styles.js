@@ -33,7 +33,6 @@ export const FabioImg = styled.div`
     border: 4px solid #000000;
     border-radius: 100%;
     display: flex;
-    // position: absolute;
     max-height: 15.625rem;
     max-width: 15.625rem;
     margin-top: 1.5625rem;

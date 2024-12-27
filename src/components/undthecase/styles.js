@@ -121,24 +121,24 @@ export const ImageContainer = styled.div`
   display: flex;
   margin: auto 0;
 
-  img {
+  svg {
     width: 500px;
     height: 500px;
     border-radius: 80px;
   }
 
   @media (max-width: ${theme.breakpoints.md}) {
-    img {
+    svg {
       transform: scale(0.9);
     }
   }
   @media (max-width: ${theme.breakpoints.sm}) {
-    img {
+    svg {
       transform: scale(0.8);
     }
   }
   @media (max-width: ${theme.breakpoints.mini}) {
-    img {
+    svg {
       transform: scale(0.65);
     }
   }
