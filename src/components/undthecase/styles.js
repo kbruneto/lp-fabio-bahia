@@ -117,7 +117,6 @@ export const TextContainer = styled.div`
 `;
 
 export const ImageContainer = styled.div`
-  max-width: 500px;
   display: flex;
   margin: auto 0;
 
@@ -127,19 +126,30 @@ export const ImageContainer = styled.div`
     border-radius: 80px;
   }
 
+  @media (max-width: ${theme.breakpoints.lg}) {
+    svg {
+      margin-top: 40px;
+    }
+  }
+
   @media (max-width: ${theme.breakpoints.md}) {
     svg {
-      transform: scale(0.9);
+      width: 500px;
+      height: 500px;
     }
   }
   @media (max-width: ${theme.breakpoints.sm}) {
     svg {
-      transform: scale(0.8);
+      width: 400px;
+      height: 400px;
     }
   }
   @media (max-width: ${theme.breakpoints.mini}) {
     svg {
-      transform: scale(0.65);
+      width: auto;
+      height: auto;
+      max-width: 320px;
+      max-height: 320px;
     }
   }
 `;

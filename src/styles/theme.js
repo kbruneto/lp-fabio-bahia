@@ -6,7 +6,7 @@ export const theme = {
     whiteBG: "#ffffff",
   },
   breakpoints: {
-    mini: "485px",
+    mini: "430px",
     sm: "550px",
     md: "780px",
     lg: "1024px",
