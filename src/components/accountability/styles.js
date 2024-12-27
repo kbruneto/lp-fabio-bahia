@@ -8,7 +8,7 @@ export const ContainerMainAcc = styled.div`
   align-items: center;
   gap: 50px;
 
-  min-height: 500px;
+  min-height: 400px;
   max-width: 100%;
 `;
 

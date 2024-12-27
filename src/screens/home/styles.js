@@ -17,7 +17,7 @@ export const LineOne = styled.div`
   @media (max-width: ${theme.breakpoints.lg}) {
     flex-direction: column;
     align-items: center;
-    gap: 40px;
+    gap: 0px;
   }
 `;
 
