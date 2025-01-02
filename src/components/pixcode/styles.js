@@ -25,19 +25,20 @@ export const TitleDonate = styled.p`
   }
   @media (max-width: ${theme.breakpoints.mini}) {
     font-size: 32px;
+    max-width: 90%;
   }
 `;
 
 export const ImageCode = styled.div`
   svg {
-    padding: 60px;
+    padding: 40px;
 
     @media (max-width: ${theme.breakpoints.md}) {
       height: 400px;
     }
 
     @media (max-width: ${theme.breakpoints.mini}) {
-      height: 350px;
+      height: 300px;
     }
   }
 `;
