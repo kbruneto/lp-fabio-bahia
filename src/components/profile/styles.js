@@ -71,7 +71,7 @@ export const ContentProfile = styled.div`
 
   @media (max-width: ${theme.breakpoints.mini}) {
     h1 {
-      font-size: 30px;
+      font-size: 32px;
     }
   }
 `;
