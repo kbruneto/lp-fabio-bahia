@@ -9,6 +9,7 @@ export const ContainerMainAcc = styled.div`
   gap: 30px;
   background-color: #ffefb4;
   border: solid 1px #000;
+  padding: 8px;
 
   min-height: 380px;
   width: 80%;
