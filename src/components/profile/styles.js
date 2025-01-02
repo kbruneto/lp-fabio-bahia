@@ -47,19 +47,31 @@ export const ContentProfile = styled.div`
   align-items: center;
 
   h1 {
-    font-size: 50px;
+    font-size: 42px;
+    margin-bottom: 1.6rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 24px;
     margin-bottom: 3.125rem;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: underline #161616;
+    text-decoration-thickness: 0.3px;
+    text-underline-offset: 3.5px;
+    color: #161616;
   }
 
   @media (max-width: ${theme.breakpoints.sm}) {
     h1 {
-      font-size: 40px;
+      font-size: 36px;
     }
   }
 
   @media (max-width: ${theme.breakpoints.mini}) {
     h1 {
-      font-size: 35px;
+      font-size: 30px;
     }
   }
 `;
@@ -77,8 +89,10 @@ export const ContactUsDesc = styled.p`
 export const ContactUs = styled.div`
   display: flex;
   flex-direction: row;
-  gap: 5px;
+  gap: 4px;
+  align-content: center;
   align-items: center;
+  text-align: center;
 
   a {
     font-size: 20px;
@@ -105,10 +119,10 @@ export const ContactUs = styled.div`
 
 export const Description = styled.p`
   text-align: justify;
-  font-size: 24px;
-  margin-bottom: 6.25rem;
+  font-size: 20px;
+  margin-bottom: 3.25rem;
 
   h1 {
-    font-size: 20px;
+    font-size: 16px;
   }
 `;

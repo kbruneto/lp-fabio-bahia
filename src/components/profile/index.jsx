@@ -21,11 +21,13 @@ export function Profile() {
       </Banner>
 
       <ContentProfile>
-        <h1>Ajude o Fabio!</h1>
+        <h1>Juntos pelo Fabio!</h1>
+        <h2>Apoie essa jornada pela Saúde!</h2>
         <Description>
-          Com qualquer valor você estará apoiando o tratamento de saúde do
-          Fabio. Quem puder nos ajudar, agradecemos muito!
+          Cada contribuição faz a diferença na batalha pela saúde do Fabio. Sua
+          ajuda transforma vidas e traz esperança.
         </Description>
+        <Description>Muito obrigado pelo apoio!</Description>
 
         <ContactUsDesc>Entre em contato conosco:</ContactUsDesc>
         <ContactUs>

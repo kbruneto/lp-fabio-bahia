@@ -6,10 +6,13 @@ export const ContainerMainAcc = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 30px;
+  background-color: #ffefb4;
+  border: solid 1px #000;
 
-  min-height: 400px;
-  max-width: 100%;
+  min-height: 380px;
+  width: 80%;
+  border-radius: 60px;
 `;
 
 export const TextContent = styled.p`
@@ -17,19 +20,20 @@ export const TextContent = styled.p`
   font-weight: 700;
   text-align: center;
   color: #060606;
+  line-height: 1.4;
 
   span {
     color: ${theme.colors.orange};
   }
 
   @media (max-width: ${theme.breakpoints.md}) {
-    font-size: 20;
+    font-size: 20px;
   }
   @media (max-width: ${theme.breakpoints.sm}) {
-    font-size: 18;
+    font-size: 18px;
   }
   @media (max-width: ${theme.breakpoints.mini}) {
-    font-size: 16;
+    font-size: 16px;
   }
 `;
 
@@ -60,15 +64,15 @@ export const ButtonVaq = styled.a`
   }
 
   @media (max-width: ${theme.breakpoints.md}) {
-    width: 550px;
+    width: 450px;
     font-size: 18px;
   }
   @media (max-width: ${theme.breakpoints.sm}) {
-    width: 450px;
+    width: 350px;
     font-size: 16px;
   }
   @media (max-width: ${theme.breakpoints.mini}) {
-    width: 350px;
+    width: 250px;
   }
 `;
 
@@ -76,7 +80,7 @@ export const ButtonInter = styled.a`
   border: 1.3px solid ${theme.colors.black};
   width: 600px;
   height: 45px;
-  background-color: transparent;
+  background-color: #ffcb7c;
   border-radius: 10px;
   color: ${theme.colors.black};
   font-size: 20px;
@@ -97,14 +101,15 @@ export const ButtonInter = styled.a`
   }
 
   @media (max-width: ${theme.breakpoints.md}) {
-    width: 500px;
+    width: 400px;
     font-size: 18px;
   }
   @media (max-width: ${theme.breakpoints.sm}) {
-    width: 400px;
+    width: 300px;
     font-size: 16px;
   }
   @media (max-width: ${theme.breakpoints.mini}) {
-    width: 300px;
+    width: 230px;
+    font-size: 14px;
   }
 `;

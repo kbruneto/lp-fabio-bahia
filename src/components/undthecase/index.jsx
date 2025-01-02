@@ -13,21 +13,19 @@ export function UndTheCase() {
       <ContentContainer>
         <TextContainer>
           <p>
-            Fabio enfrenta uma condição rara e grave: trombose venosa porta e
-            mesentérica crônica, que bloqueia importantes veias abdominais. Isso
-            causa complicações como:
+            Fabio enfrenta uma condição de saúde rara e grave: trombose venosa
+            porta e mesentérica crônica, que compromete a circulação sanguínea
+            em veias abdominais vitais. Entre os desafios, ele lida com:
           </p>
           <p>
-            • Dificuldade na circulação sanguínea, com risco de hemorragias
-            graves. <br />
-            <br /> • Aumento do baço e problemas no fígado. <br />
-            <br /> • Necessidade de alimentação parenteral devido à desnutrição
-            severa.
+            • Risco elevado de hemorragias graves; <br />
+            <br /> • Aumento do baço e complicações hepáticas; <br />
+            <br /> • Dependência de alimentação parenteral devido à desnutrição.
           </p>
           <p>
-            Ele precisa de cuidados médicos constantes, medicamentos e
-            acompanhamento diário para lidar com essa condição complexa. Apesar
-            dos desafios, Fabio segue com força e o apoio da família.
+            Essa jornada exige acompanhamento médico constante, tratamentos
+            especializados e muita resiliência. Com o apoio da sua família,
+            Fabio segue lutando com força e esperança.
           </p>
         </TextContainer>
         <ImageContainer>

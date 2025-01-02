@@ -9,15 +9,19 @@ export function Accountability() {
   return (
     <ContainerMainAcc>
       <TextContent>
-        ENCONTRE A PRESTAÇÃO DE CONTAS NO SITE DA <br /> <span>VAQUINHA</span>{" "}
-        NA ABA DE <span>ATUALIZAÇÕES</span>
+        TRANSPARÊNCIA É ESSENCIAL: <br /> ACOMPANHE A{" "}
+        <span>PRESTAÇÃO DE CONTAS</span> E AS{" "}
+        <span>
+          ATUALIZAÇÕES <br />
+        </span>
+        SOBRE A CAMPANHA NO SITE DA <span>VAQUINHA ONLINE</span>
       </TextContent>
       <ButtonVaq
         href="https://www.kickante.com.br/vaquinha-online/ajude-fabio-tratamento-e-qualidade-de-vida-para-doenca-grave"
         target="_blank"
         rel="noopener noreferrer"
       >
-        CLIQUE PARA ACESSAR A VAQUINHA ONLINE
+        ACESSE A VAQUINHA ONLINE
       </ButtonVaq>
       <ButtonInter
         href="https://www.gofundme.com/f/help-fabio-improve-his-quality-of-life"
