@@ -9,7 +9,7 @@ export const ContainerMain = styled.div`
   align-items: center;
   border-radius: 50px 50px 50px 50px;
 
-  background-color: #fdefbb;
+  background-color: ${theme.colors.orangeBG};
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -4,6 +4,7 @@ export const theme = {
     darkText: "#1F1F1F",
     black: "#000000",
     whiteBG: "#ffffff",
+    orangeBG: "#fdefbb",
   },
   breakpoints: {
     mini: "500px",
