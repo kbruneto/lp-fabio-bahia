@@ -3,7 +3,7 @@ import { theme } from "../../styles/theme";
 
 export const ContainerMain = styled.div`
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,7 +33,8 @@ export const Button = styled.a`
   text-decoration: none;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  gap: 10px;
 
   transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out,
     color 0.3s ease-in-out;
@@ -45,6 +46,26 @@ export const Button = styled.a`
     color: ${theme.colors.whiteBG};
     transform: scale(1.05);
   }
+`;
+
+export const FlagImageDiv = styled.div`
+  height: 100%;
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  img {
+    height: 32px;
+  }
+`;
+
+export const ButtonTextDiv = styled.div`
+  height: 100%;
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 `;
 
 export const ButtonsDiv = styled.div`

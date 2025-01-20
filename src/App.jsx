@@ -1,11 +1,11 @@
-import { Select } from "./screens/select";
 import GlobalStyles from "./styles/global";
+import { Outlet } from "react-router-dom";
 
 export function App() {
   return (
     <>
       <GlobalStyles />
-      <Select />
+      <Outlet />
     </>
   );
 }
