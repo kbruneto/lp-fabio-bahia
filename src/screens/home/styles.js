@@ -42,3 +42,41 @@ export const LineFour = styled.div`
   justify-content: center;
   width: 100%;
 `;
+
+export const ButtonSelectLenguage = styled.button`
+  border: 1px solid ${theme.colors.orange};
+  width: 150px;
+  height: 22px;
+  background-color: transparent;
+  border-radius: 3px;
+  color: ${theme.colors.orange};
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  right: 15px;
+  top: 15px;
+
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+
+  transform: scale(1);
+
+  &:hover {
+    background-color: rgba(248, 168, 45, 0.8);
+    color: ${theme.colors.whiteBG};
+    transform: scale(1.05);
+  }
+
+  @media (max-width: ${theme.breakpoints.md}) {
+  }
+  @media (max-width: ${theme.breakpoints.sm}) {
+  }
+  @media (max-width: ${theme.breakpoints.mini}) {
+    right: 20px;
+    top: 20px;
+  }
+`;
