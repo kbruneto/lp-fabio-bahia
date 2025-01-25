@@ -17,18 +17,18 @@ export function AccountabilityUS() {
         ABOUT THE CAMPAIGN ON THE <span>VAQUINHA ONLINE</span> WEBSITE
       </TextContent>
       <ButtonVaq
-        href="https://www.kickante.com.br/vaquinha-online/ajude-fabio-tratamento-e-qualidade-de-vida-para-doenca-grave"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        ACCESS VAQUINHA ONLINE
-      </ButtonVaq>
-      <ButtonInter
         href="https://www.gofundme.com/f/help-fabio-improve-his-quality-of-life"
         target="_blank"
         rel="noopener noreferrer"
       >
-        INTERNATIONAL DONATIONS
+        ACCESS TO GOFOUNDME
+      </ButtonVaq>
+      <ButtonInter
+        href="https://www.kickante.com.br/vaquinha-online/ajude-fabio-tratamento-e-qualidade-de-vida-para-doenca-grave"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        BRAZIL DONATIONS
       </ButtonInter>
     </ContainerMainAcc>
   );

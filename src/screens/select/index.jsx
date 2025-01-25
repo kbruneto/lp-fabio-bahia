@@ -27,12 +27,14 @@ export function Select() {
             </Button>
           </Link>
 
-          <Button>
-            <FlagImageDiv>
-              <img src="https://flagsapi.com/US/flat/64.png" />
-            </FlagImageDiv>
-            <ButtonTextDiv>English</ButtonTextDiv>
-          </Button>
+          <Link to="/us">
+            <Button>
+              <FlagImageDiv>
+                <img src="https://flagsapi.com/US/flat/64.png" />
+              </FlagImageDiv>
+              <ButtonTextDiv>English</ButtonTextDiv>
+            </Button>
+          </Link>
         </ButtonsDiv>
       </Options>
     </ContainerMain>

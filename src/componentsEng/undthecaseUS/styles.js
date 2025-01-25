@@ -14,7 +14,7 @@ export const ContainerMainUnd = styled.div`
 
   a {
     border: 2px solid ${theme.colors.orange};
-    width: 400px;
+    width: 430px;
     height: 45px;
     background-color: transparent;
     border-radius: 12px;
@@ -41,7 +41,7 @@ export const ContainerMainUnd = styled.div`
   @media (max-width: ${theme.breakpoints.sm}) {
     h1 {
       color: ${theme.colors.orange};
-      font-size: 40px;
+      font-size: 35px;
     }
 
     a {
@@ -54,13 +54,13 @@ export const ContainerMainUnd = styled.div`
   @media (max-width: ${theme.breakpoints.mini}) {
     h1 {
       color: ${theme.colors.orange};
-      font-size: 35px;
+      font-size: 30px;
     }
 
     a {
-      width: 280px;
+      width: 300px;
       height: 30px;
-      font-size: 16px;
+      font-size: 14px;
     }
   }
 `;

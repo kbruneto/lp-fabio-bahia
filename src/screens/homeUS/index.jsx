@@ -1,11 +1,11 @@
+import { Link } from "react-router-dom";
 import { AccountabilityUS } from "../../componentsEng/accountabilityUS";
 import { CampaignUS } from "../../componentsEng/campaignUS";
-import { PixCodeUS } from "../../componentsEng/pixcodeUS";
 import { ProfileUS } from "../../componentsEng/profileUS";
 import { UndTheCaseUS } from "../../componentsEng/undthecaseUS";
 import {
+  ButtonSelectLenguage,
   ContainerMain,
-  LineFour,
   LineOne,
   LineThree,
   LineTwo,
@@ -15,6 +15,9 @@ export function HomeUS() {
   return (
     <ContainerMain>
       <LineOne>
+        <Link to="/select">
+          <ButtonSelectLenguage>Change the Language</ButtonSelectLenguage>
+        </Link>
         <ProfileUS></ProfileUS>
         <CampaignUS></CampaignUS>
       </LineOne>
@@ -24,9 +27,6 @@ export function HomeUS() {
       <LineThree>
         <AccountabilityUS></AccountabilityUS>
       </LineThree>
-      <LineFour>
-        <PixCodeUS></PixCodeUS>
-      </LineFour>
     </ContainerMain>
   );
 }
