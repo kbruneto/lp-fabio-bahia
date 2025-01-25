@@ -26,7 +26,7 @@ export function CampaignUS() {
       </TextCampanha>
 
       <a
-        href="https://www.kickante.com.br/vaquinha-online/ajude-fabio-tratamento-e-qualidade-de-vida-para-doenca-grave"
+        href="https://www.gofundme.com/f/help-fabio-improve-his-quality-of-life"
         target="_blank"
         rel="noopener noreferrer"
       >
